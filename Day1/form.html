@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>
+            Form
+        </title>
+    </head>
+    <body>
+        <h1>Form</h1>
+        <form>
+            <fieldset>
+                <legend>Details:</legend>
+                <table>
+                    <tr>
+                        <td><label for="fname">First name:</label></td>
+                        <td><input type="text" id="fname" name="fname"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="lname">Last name:</label></td>
+                        <td><input type="text" id="lname" name="lname"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="gen">Gender:</label><br></td>
+                        <td><input type="radio" id="female" name="gen"><label for="female">Female</label>
+                            <input type="radio" id="male" name="gen"><label for="male">Male</label></td>
+                    </tr>    
+                    <tr>
+                        <td><label for="date">Date:</label></td>
+                        <td><input type="date" id="date" name="date"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Subject">Subject:</label></td>
+                        <td><label for="A">A</label><input type="checkbox" id="A" name="A">
+                            <label for="B">B</label><input type="checkbox" id="B" name="B">
+                            <label for="C">C</label><input type="checkbox" id="C" name="C"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Mode">Mode:</label></td>
+                        <td><select name="Mode" id="Mode">
+                            <option value="Online">Online</option>
+                            <option value="Offline">Offline</option>
+                            <option value="hybrid">Hybrid</option></select>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <br><input type="submit" value="Submit">
+        </form>
+        <a href="index.html">Home</a>
+    </body>
+</html>
