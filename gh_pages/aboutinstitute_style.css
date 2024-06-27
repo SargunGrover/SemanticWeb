@@ -1,0 +1,46 @@
+.navbar{
+    width:100%;
+    background-color: #ffffff;
+}
+
+.navbar ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar ul li{
+    float:left;
+}
+
+.navbar ul li a{
+    display: block;
+    color:#000;
+	text-decoration: none;
+    text-align: center;
+	padding: 10px 40px 10px 40px;
+}
+
+.navbar ul li a:hover{
+	background-color:#6a11cb ;
+	color: #fff;
+}
+
+.text{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.text h1 {
+    font-size: 40px;
+    margin: 0 0 10px;
+    padding:50px 20px 10px 20px
+}
+
+.text p {
+    font-size: 25px;
+    margin: 0;
+    padding:15px 20px 50px 20px
+}
