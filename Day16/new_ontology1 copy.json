@@ -1,0 +1,1053 @@
+{
+  "_comment": "Empty ontology for WebVOWL Editor [Additional Information added by WebVOWL Exporter Version: 1.1.7]",
+  "header": {
+    "languages": [
+      "en"
+    ],
+    "baseIris": [
+      "http://www.w3.org/2000/01/rdf-schema"
+    ],
+    "iri": "http://visualdataweb.org/EventOntology/",
+    "title": "Event Management ontology",
+    "description": {
+      "en": "New ontology description"
+    }
+  },
+  "namespace": [],
+  "settings": {
+    "global": {
+      "zoom": "0.58",
+      "translation": [
+        7.46,
+        157.95
+      ],
+      "paused": true
+    },
+    "gravity": {
+      "classDistance": 200,
+      "datatypeDistance": 120
+    },
+    "filter": {
+      "checkBox": [
+        {
+          "id": "datatypeFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "objectPropertyFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "subclassFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "disjointFilterCheckbox",
+          "checked": true
+        },
+        {
+          "id": "setoperatorFilterCheckbox",
+          "checked": false
+        }
+      ],
+      "degreeSliderValue": "0"
+    },
+    "modes": {
+      "checkBox": [
+        {
+          "id": "pickandpinModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "nodescalingModuleCheckbox",
+          "checked": true
+        },
+        {
+          "id": "compactnotationModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "colorexternalsModuleCheckbox",
+          "checked": true
+        }
+      ],
+      "colorSwitchState": false
+    }
+  },
+  "class": [
+    {
+      "id": "Class1",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class2",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class3",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class4",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class5",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class6",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class7",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class8",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class9",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class10",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class11",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class12",
+      "type": "owl:Class"
+    },
+    {
+      "id": "NodeId13",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId14",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId15",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId16",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId17",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId18",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "Class19",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class20",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class21",
+      "type": "owl:Class"
+    },
+    {
+      "id": "NodeId22",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId23",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId24",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId25",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId27",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId28",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId29",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "Class31",
+      "type": "owl:Class"
+    },
+    {
+      "id": "NodeId32",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId33",
+      "type": "rdfs:Datatype"
+    }
+  ],
+  "classAttribute": [
+    {
+      "id": "Class1",
+      "iri": "http://visualdataweb.org/EventOntology/Events",
+      "baseIri": "http://visualdataweb.org/EventOntology/",
+      "label": "Event",
+      "pos": [
+        961.21,
+        389.04
+      ]
+    },
+    {
+      "id": "Class2",
+      "iri": "http://visualdataweb.org/EventOntology/Organisers",
+      "baseIri": "http://visualdataweb.org/EventOntology/",
+      "label": "Organiser",
+      "pos": [
+        1340.36,
+        296.17
+      ]
+    },
+    {
+      "id": "Class3",
+      "iri": "http://visualdataweb.org/EventOntology/Attendees",
+      "baseIri": "http://visualdataweb.org/EventOntology/",
+      "label": "Attendee",
+      "pos": [
+        1252.42,
+        594.92
+      ]
+    },
+    {
+      "id": "Class4",
+      "iri": "http://visualdataweb.org/EventOntology/Venue",
+      "baseIri": "http://visualdataweb.org/EventOntology/",
+      "label": "Venue",
+      "pos": [
+        1176.63,
+        59
+      ]
+    },
+    {
+      "id": "Class5",
+      "iri": "http://visualdataweb.org/EventOntology/Category",
+      "baseIri": "http://visualdataweb.org/EventOntology/",
+      "label": "Category",
+      "pos": [
+        712.29,
+        201.78
+      ]
+    },
+    {
+      "id": "Class6",
+      "iri": "http://visualdataweb.org/EventOntology/Details",
+      "baseIri": "http://visualdataweb.org/EventOntology/",
+      "label": "Details",
+      "pos": [
+        791.84,
+        579.31
+      ]
+    },
+    {
+      "id": "Class7",
+      "iri": "http://visualdataweb.org/EventOntology/Technology",
+      "baseIri": "http://visualdataweb.org/EventOntology/",
+      "label": "Technology",
+      "pos": [
+        470.83,
+        16.69
+      ]
+    },
+    {
+      "id": "Class8",
+      "iri": "http://visualdataweb.org/EventOntology/Art",
+      "baseIri": "http://visualdataweb.org/EventOntology/",
+      "label": "Art",
+      "pos": [
+        577.65,
+        -76.99
+      ]
+    },
+    {
+      "id": "Class9",
+      "iri": "http://visualdataweb.org/EventOntology/Gaing",
+      "baseIri": "http://visualdataweb.org/EventOntology/",
+      "label": "Gaming",
+      "pos": [
+        725.55,
+        -83.56
+      ]
+    },
+    {
+      "id": "Class10",
+      "iri": "http://visualdataweb.org/EventOntology/Music",
+      "baseIri": "http://visualdataweb.org/EventOntology/",
+      "label": "Music",
+      "pos": [
+        875.1,
+        3.54
+      ]
+    },
+    {
+      "id": "Class11",
+      "iri": "http://visualdataweb.org/EventOntology/Food",
+      "baseIri": "http://visualdataweb.org/EventOntology/",
+      "label": "Food",
+      "pos": [
+        429.74,
+        153.09
+      ]
+    },
+    {
+      "id": "Class12",
+      "iri": "http://visualdataweb.org/EventOntology/Culture",
+      "baseIri": "http://visualdataweb.org/EventOntology/",
+      "label": "Culture",
+      "pos": [
+        487.26,
+        279.63
+      ]
+    },
+    {
+      "id": "NodeId13",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "string",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1094.01,
+        -152.55
+      ]
+    },
+    {
+      "id": "NodeId14",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "string",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1215.62,
+        -210.07
+      ]
+    },
+    {
+      "id": "NodeId15",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "string",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1302.72,
+        -118.04
+      ]
+    },
+    {
+      "id": "NodeId16",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "string",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        572.81,
+        532.1
+      ]
+    },
+    {
+      "id": "NodeId17",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "string",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        572.81,
+        683.29
+      ]
+    },
+    {
+      "id": "NodeId18",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "string",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        712.5,
+        760.53
+      ]
+    },
+    {
+      "id": "Class19",
+      "iri": "http://visualdataweb.org/EventOntology/attendeeName",
+      "baseIri": "http://visualdataweb.org/EventOntology/",
+      "label": "attendeeName",
+      "pos": [
+        1121.61,
+        782.51
+      ]
+    },
+    {
+      "id": "Class20",
+      "iri": "http://visualdataweb.org/EventOntology/attendeeContactDetails",
+      "baseIri": "http://visualdataweb.org/EventOntology/",
+      "label": "aContactDetails",
+      "pos": [
+        1379.62,
+        771
+      ]
+    },
+    {
+      "id": "Class21",
+      "iri": "http://visualdataweb.org/EventOntology/aTicketDetails",
+      "baseIri": "http://visualdataweb.org/EventOntology/",
+      "label": "aTicketDetails",
+      "pos": [
+        1541.01,
+        542.27
+      ]
+    },
+    {
+      "id": "NodeId22",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "string",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        971.61,
+        932.51
+      ]
+    },
+    {
+      "id": "NodeId23",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "string",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1145.81,
+        990.02
+      ]
+    },
+    {
+      "id": "NodeId24",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "string",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1351.23,
+        991.67
+      ]
+    },
+    {
+      "id": "NodeId25",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "string",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1513.93,
+        965.37
+      ]
+    },
+    {
+      "id": "NodeId27",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "integer",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1621.08,
+        764.58
+      ]
+    },
+    {
+      "id": "NodeId28",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "string",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1732.83,
+        647.9
+      ]
+    },
+    {
+      "id": "NodeId29",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "string",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1499.32,
+        64.9
+      ]
+    },
+    {
+      "id": "Class31",
+      "iri": "http://visualdataweb.org/EventOntology/oContactDetails",
+      "baseIri": "http://visualdataweb.org/EventOntology/",
+      "label": "oContactDetails",
+      "pos": [
+        1540.67,
+        337.15
+      ]
+    },
+    {
+      "id": "NodeId32",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "string",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1729.21,
+        171.62
+      ]
+    },
+    {
+      "id": "NodeId33",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "string",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1832.74,
+        311.31
+      ]
+    }
+  ],
+  "property": [
+    {
+      "id": "objectProperty1",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty2",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty3",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty4",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty5",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty6",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty7",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty8",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty9",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty10",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty11",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "datatypeProperty12",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty13",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty14",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty15",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty16",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty17",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "objectProperty18",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty19",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty20",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "datatypeProperty21",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty22",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty23",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty24",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty26",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty27",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty28",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "objectProperty30",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "datatypeProperty31",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty32",
+      "type": "owl:DatatypeProperty"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "id": "objectProperty1",
+      "iri": "http://visualdataweb.org/EventOntology/isOrganisedBy",
+      "baseIri": "http://visualdataweb.org/EventOntology/",
+      "label": "isOrganisedBy",
+      "attributes": [
+        "object"
+      ],
+      "domain": "Class1",
+      "range": "Class2",
+      "pos": [
+        1150.79,
+        342.6
+      ]
+    },
+    {
+      "id": "objectProperty2",
+      "iri": "http://visualdataweb.org/EventOntology/",
+      "baseIri": "http://visualdataweb.org/EventOntology/",
+      "label": "isAttendedBy",
+      "domain": "Class1",
+      "range": "Class3",
+      "pos": [
+        1106.81,
+        491.98
+      ]
+    },
+    {
+      "id": "objectProperty3",
+      "iri": "http://visualdataweb.org/EventOntology/isLocatedAt",
+      "baseIri": "http://visualdataweb.org/EventOntology/",
+      "label": "isLocatedAt",
+      "attributes": [
+        "object"
+      ],
+      "domain": "Class1",
+      "range": "Class4",
+      "pos": [
+        1068.92,
+        224.02
+      ]
+    },
+    {
+      "id": "objectProperty4",
+      "iri": "http://visualdataweb.org/EventOntology/hascategories",
+      "baseIri": "http://visualdataweb.org/EventOntology/",
+      "label": "hasCategories",
+      "domain": "Class1",
+      "range": "Class5",
+      "pos": [
+        836.75,
+        295.41
+      ]
+    },
+    {
+      "id": "objectProperty5",
+      "iri": "http://visualdataweb.org/EventOntology/hasDetails",
+      "baseIri": "http://visualdataweb.org/EventOntology/",
+      "label": "hasDetails",
+      "attributes": [
+        "object"
+      ],
+      "domain": "Class1",
+      "range": "Class6",
+      "pos": [
+        876.52,
+        484.17
+      ]
+    },
+    {
+      "id": "objectProperty6",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "domain": "Class7",
+      "range": "Class5",
+      "pos": [
+        591.56,
+        109.23
+      ]
+    },
+    {
+      "id": "objectProperty7",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "domain": "Class8",
+      "range": "Class5",
+      "pos": [
+        644.97,
+        62.4
+      ]
+    },
+    {
+      "id": "objectProperty8",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "domain": "Class9",
+      "range": "Class5",
+      "pos": [
+        718.92,
+        59.11
+      ]
+    },
+    {
+      "id": "objectProperty9",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "domain": "Class10",
+      "range": "Class5",
+      "pos": [
+        793.69,
+        102.66
+      ]
+    },
+    {
+      "id": "objectProperty10",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "domain": "Class11",
+      "range": "Class5",
+      "pos": [
+        571.01,
+        177.43
+      ]
+    },
+    {
+      "id": "objectProperty11",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "domain": "Class12",
+      "range": "Class5",
+      "pos": [
+        599.77,
+        240.7
+      ]
+    },
+    {
+      "id": "datatypeProperty12",
+      "iri": "http://visualdataweb.org/EventOntology/address",
+      "baseIri": "http://visualdataweb.org/EventOntology/",
+      "label": "address",
+      "domain": "Class4",
+      "range": "NodeId13",
+      "pos": [
+        1128.18,
+        -65.06
+      ]
+    },
+    {
+      "id": "datatypeProperty13",
+      "iri": "http://visualdataweb.org/EventOntology/City",
+      "baseIri": "http://visualdataweb.org/EventOntology/",
+      "label": "City",
+      "domain": "Class4",
+      "range": "NodeId14",
+      "pos": [
+        1198.98,
+        -95.28
+      ]
+    },
+    {
+      "id": "datatypeProperty14",
+      "iri": "http://visualdataweb.org/EventOntology/Country",
+      "baseIri": "http://visualdataweb.org/EventOntology/",
+      "label": "Country",
+      "domain": "Class4",
+      "range": "NodeId15",
+      "pos": [
+        1250.61,
+        -44.88
+      ]
+    },
+    {
+      "id": "datatypeProperty15",
+      "iri": "http://visualdataweb.org/EventOntology/eventName",
+      "baseIri": "http://visualdataweb.org/EventOntology/",
+      "label": "eventName",
+      "domain": "Class6",
+      "range": "NodeId16",
+      "pos": [
+        670.14,
+        553.08
+      ]
+    },
+    {
+      "id": "datatypeProperty16",
+      "iri": "http://visualdataweb.org/EventOntology/eventDate",
+      "baseIri": "http://visualdataweb.org/EventOntology/",
+      "label": "eventDate",
+      "domain": "Class6",
+      "range": "NodeId17",
+      "pos": [
+        670.27,
+        637.02
+      ]
+    },
+    {
+      "id": "datatypeProperty17",
+      "iri": "http://visualdataweb.org/EventOntology/eventTime",
+      "baseIri": "http://visualdataweb.org/EventOntology/",
+      "label": "eventTime",
+      "domain": "Class6",
+      "range": "NodeId18",
+      "pos": [
+        744.33,
+        687.82
+      ]
+    },
+    {
+      "id": "objectProperty18",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "domain": "Class19",
+      "range": "Class3",
+      "pos": [
+        1187.01,
+        688.72
+      ]
+    },
+    {
+      "id": "objectProperty19",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "domain": "Class20",
+      "range": "Class3",
+      "pos": [
+        1316.02,
+        682.96
+      ]
+    },
+    {
+      "id": "objectProperty20",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "domain": "Class21",
+      "range": "Class3",
+      "pos": [
+        1396.71,
+        568.6
+      ]
+    },
+    {
+      "id": "datatypeProperty21",
+      "iri": "http://visualdataweb.org/EventOntology/fName",
+      "baseIri": "http://visualdataweb.org/EventOntology/",
+      "label": "fName",
+      "domain": "Class19",
+      "range": "NodeId22",
+      "pos": [
+        1033.93,
+        870.18
+      ]
+    },
+    {
+      "id": "datatypeProperty22",
+      "iri": "http://visualdataweb.org/EventOntology/lName",
+      "baseIri": "http://visualdataweb.org/EventOntology/",
+      "label": "lName",
+      "domain": "Class19",
+      "range": "NodeId23",
+      "pos": [
+        1136.02,
+        906.1
+      ]
+    },
+    {
+      "id": "datatypeProperty23",
+      "iri": "http://visualdataweb.org/EventOntology/email",
+      "baseIri": "http://visualdataweb.org/EventOntology/",
+      "label": "aEmail",
+      "domain": "Class20",
+      "range": "NodeId24",
+      "pos": [
+        1362.88,
+        901.13
+      ]
+    },
+    {
+      "id": "datatypeProperty24",
+      "iri": "http://visualdataweb.org/EventOntology/contactNo",
+      "baseIri": "http://visualdataweb.org/EventOntology/",
+      "label": "aContactNo",
+      "domain": "Class20",
+      "range": "NodeId25",
+      "pos": [
+        1457.53,
+        883.75
+      ]
+    },
+    {
+      "id": "datatypeProperty26",
+      "iri": "http://visualdataweb.org/EventOntology/ticketNo",
+      "baseIri": "http://visualdataweb.org/EventOntology/",
+      "label": "ticketNo",
+      "domain": "Class21",
+      "range": "NodeId27",
+      "pos": [
+        1587.71,
+        671.94
+      ]
+    },
+    {
+      "id": "datatypeProperty27",
+      "iri": "http://visualdataweb.org/EventOntology/",
+      "baseIri": "http://visualdataweb.org/EventOntology/",
+      "label": "class",
+      "domain": "Class21",
+      "range": "NodeId28",
+      "pos": [
+        1649.74,
+        602.14
+      ]
+    },
+    {
+      "id": "datatypeProperty28",
+      "iri": "http://visualdataweb.org/EventOntology/organiserName",
+      "baseIri": "http://visualdataweb.org/EventOntology/",
+      "label": "organiserName",
+      "domain": "Class2",
+      "range": "NodeId29",
+      "pos": [
+        1430.57,
+        164.93
+      ]
+    },
+    {
+      "id": "objectProperty30",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "domain": "Class31",
+      "range": "Class2",
+      "pos": [
+        1440.52,
+        316.66
+      ]
+    },
+    {
+      "id": "datatypeProperty31",
+      "iri": "http://visualdataweb.org/EventOntology/oEmail",
+      "baseIri": "http://visualdataweb.org/EventOntology/",
+      "label": "oEmail",
+      "domain": "Class31",
+      "range": "NodeId32",
+      "pos": [
+        1648.03,
+        242.89
+      ]
+    },
+    {
+      "id": "datatypeProperty32",
+      "iri": "http://visualdataweb.org/EventOntology/oContactNo",
+      "baseIri": "http://visualdataweb.org/EventOntology/",
+      "label": "oContactNo",
+      "domain": "Class31",
+      "range": "NodeId33",
+      "pos": [
+        1699.36,
+        323.11
+      ]
+    }
+  ]
+}
