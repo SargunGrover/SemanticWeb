@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summary of SPARQL Query Construction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        h2 {
+            color: #555;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Summary: Constructing SPARQL Queries</h1>
+    <p>SPARQL is a query language used for retrieving and manipulating linked data from triplestores. It utilizes triple patterns to navigate RDF data effectively.</p>
+
+    <h2>Basic Query Structure</h2>
+    <p>The simplest SPARQL query retrieves all triples:</p>
+    <pre>
+SELECT ?subject ?predicate ?object
+WHERE {
+    ?subject ?predicate ?object .
+}
+    </pre>
+    <p>The <code>?subject</code>, <code>?predicate</code>, and <code>?object</code> are variables that match the RDF triples.</p>
+
+    <h2>Examples and Use Cases</h2>
+    <ul>
+        <li><strong>Retrieving Entities:</strong> Get entities and their labels using <code>rdfs:label</code>.</li>
+        <li><strong>Filtering and Aggregation:</strong> Use DISTINCT, GROUP BY, and ORDER BY to filter duplicates and sort results.</li>
+        <li><strong>Complex Queries:</strong> Example queries involve retrieving athlete data from an Olympics dataset.</li>
+    </ul>
+
+    <h2>Olympics Dataset</h2>
+    <p>The examples utilize an Olympics dataset, containing information about athletes, countries, events, and medals. SPARQL queries demonstrate retrieving athlete names, medal counts, and average attributes (e.g., height and weight) for various countries, showcasing the versatility of linked data queries.</p>
+
+    <h2>Advanced Features</h2>
+    <p>Prefixes help make queries readable, and combining different datasets using SPARQL's federated capabilities showcases the language's power.</p>
+
+    <h2>Best Practices</h2>
+    <ul>
+        <li>Use prefixes to simplify repeated URIs.</li>
+        <li>Set LIMITs and OFFSETs to handle large datasets.</li>
+    </ul>
+</body>
+</html>

@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shop by Brand</title>
+    <title>Shop by Brand - My Music Store</title>
     <link rel="stylesheet" href="msstyle.css">
 </head>
 <body>
     <header class="navbar">
         <div class="container">
-            <h1>My Music Store</h1>
+            <h1 style="color:aquamarine;">My Music Store</h1>
             <nav>
                 <ul>
                     <li><a href="mswebsite.html">Home</a></li>
                     <li><a href="shop-by-category.html">Shop by Category</a></li>
                     <li><a href="shop-by-brand.html">Shop by Brand</a></li>
+                    <li><a href="queries.html">Common User queries</a></li>
                     <li><a href="about.html">About Us</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
@@ -22,15 +23,124 @@
         </div>
     </header>
 
-    <section id="shop-brand" class="content">
+    <section class="shop-category">
         <div class="container">
-            <h2>Shop by Brand</h2>
-            <ul class="brands">
-                <li><a href="#">Brand A</a></li>
-                <li><a href="#">Brand B</a></li>
-                <li><a href="#">Brand C</a></li>
-                <!-- Add more brands as needed -->
-            </ul>
+            <h2 class="page-title">Shop by Brand</h2>
+            <div class="category-layout">
+                <!-- Sidebar for Brands -->
+                <aside class="category-sidebar">
+                    <h3>Brands</h3>
+                    <ul>
+                        <li><a href="#yamaha">Yamaha</a></li>
+                        <li><a href="#fender">Fender</a></li>
+                        <li><a href="#ibanez">Ibanez</a></li>
+                        <li><a href="#gibson">Gibson</a></li>
+                        <li><a href="#roland">Roland</a></li>
+                        <li><a href="#casio">Casio</a></li>
+                    </ul>
+                </aside>
+                
+                <!-- Main Area for Brand Products -->
+                <div class="category-content">
+                    <div id="yamaha" class="category-item">
+                        <h3>Yamaha</h3>
+                        <div class="product-list">
+                            <div class="product-card">
+                                <img src="../trainingimages/sbb-yamaha_ag.jpg" alt="Yamaha Guitar">
+                                <p>Yamaha Acoustic Guitar</p>
+                            </div>
+                            <div class="product-card">
+                                <img src="../trainingimages/sbb-yamaha_key.jpeg" alt="Yamaha Keyboard">
+                                <p>Yamaha Keyboard</p>
+                            </div>
+                            <!-- Add more Yamaha products -->
+                        </div>
+                    </div>
+
+                    <div id="fender" class="category-item">
+                        <h3>Fender</h3>
+                        <div class="product-list">
+                            <div class="product-card">
+                                <img src="../trainingimages/sbb-fender_eg.jpg" alt="Fender Guitar">
+                                <p>Fender Electric Guitar</p>
+                            </div>
+                            <div class="product-card">
+                                <img src="../trainingimages/sbb-fender-amp.jpeg" alt="Fender Amp">
+                                <p>Fender Amplifier</p>
+                            </div>
+                            <!-- Add more Fender products -->
+                        </div>
+                    </div>
+
+                    <div id="ibanez" class="category-item">
+                        <h3>Ibanez</h3>
+                        <div class="product-list">
+                            <div class="product-card">
+                                <img src="../trainingimages/sbb-ibanez_eg.jpg" alt="Electric Guitar">
+                                <p>Electric Guitar</p>
+                            </div>
+                            <div class="product-card">
+                                <img src="../trainingimages/sbb-ibanez_ag.jpeg" alt="Acoustic Guitar">
+                                <p>Acoustic Guitar</p>
+                            </div>
+                            <!-- Add more Fender products -->
+                        </div>
+                    </div>
+
+                    <div id="gibson" class="category-item">
+                        <h3>Gibson</h3>
+                        <div class="product-list">
+                            <div class="product-card">
+                                <img src="../trainingimages/sbb-gibson_lespaul.jpg" alt="Gibson Guitar">
+                                <p>Gibson Les Paul</p>
+                            </div>
+                            <div class="product-card">
+                                <img src="../trainingimages/sbb-gibson-pick.jpg" alt="Picks">
+                                <p>Picks</p>
+                            </div>
+                            <div class="product-card">
+                                <img src="../trainingimages/sbb-gibson-s.jpg.webp" alt="Straps">
+                                <p>Straps</p>
+                            </div>
+                            <!-- Add more Gibson products -->
+                        </div>
+                    </div>
+
+                    <div id="roland" class="category-item">
+                        <h3>Roland</h3>
+                        <div class="product-list">
+                            <div class="product-card">
+                                <img src="../trainingimages/sbb-roland-ed.webp" alt="Electronic Drumkits">
+                                <p>Electronic Drumkits</p>
+                            </div>
+                            <div class="product-card">
+                                <img src="../trainingimages/sbb-roland-edp.jpg" alt="Electronic Drum Pad">
+                                <p>Electronic Drum Pad</p>
+                            </div>
+                            <div class="product-card">
+                                <img src="../trainingimages/sbb-roland-effect.jpg.webp" alt="Effect Pedals">
+                                <p>Effect Pedals</p>
+                            </div>
+                            <!-- Add more Roland products -->
+                        </div>
+                    </div>
+
+                    <div id="casio" class="category-item">
+                        <h3>Casio</h3>
+                        <div class="product-list">
+                            <div class="product-card">
+                                <img src="../trainingimages/sbb-casio_key.jpg" alt="Casio Keyboard">
+                                <p>Portable Keyboard</p>
+                            </div>
+                            <div class="product-card">
+                                <img src="../trainingimages/sbb-casio-bag.webp" alt="Keyboard Gigbags">
+                                <p>Keyboard Gigbags</p>
+                            </div>
+                            <!-- Add more Casio products -->
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 

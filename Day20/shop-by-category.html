@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shop by Category</title>
+    <title>Shop by Category - My Music Store</title>
     <link rel="stylesheet" href="msstyle.css">
 </head>
 <body>
     <header class="navbar">
         <div class="container">
-            <h1>My Music Store</h1>
+            <h1 style="color: aquamarine;">My Music Store</h1>
             <nav>
                 <ul>
                     <li><a href="mswebsite.html">Home</a></li>
                     <li><a href="shop-by-category.html">Shop by Category</a></li>
                     <li><a href="shop-by-brand.html">Shop by Brand</a></li>
+                    <li><a href="queries.html">Common User queries</a></li>
                     <li><a href="about.html">About Us</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
@@ -22,21 +23,134 @@
         </div>
     </header>
 
-    <section id="shop-category" class="content">
+    <section class="shop-category">
         <div class="container">
-            <h2>Shop by Category</h2>
-            <ul class="categories">
-                <li><a href="#">Guitars</a></li>
-                <li><a href="#">Drums</a></li>
-                <li><a href="#">Keyboards</a></li>
-                <!-- Add more categories as needed -->
-            </ul>
+            <h2 class="page-title">Shop by Category</h2>
+            <div class="category-layout">
+                <!-- Sidebar for Categories -->
+                <aside class="category-sidebar">
+                    <h3>Instrument Types</h3>
+                    <ul>
+                        <li><a href="#guitar">Guitars</a></li>
+                        <li><a href="#ukulele">Ukuleles</a></li>
+                        <li><a href="#keyboard">Keyboards & Pianos</a></li>
+                        <li><a href="#drums">Drums & Percussions</a></li>
+                        <li><a href="#wind">Wind Instruments</a></li>
+                    </ul>
+                </aside>
+                
+                <!-- Main Area for Category Items -->
+                <div class="category-content">
+                    <div id="guitar" class="category-item">
+                        <h3>Guitars</h3>
+                        <div class="product-list">
+                            <div class="product-card">
+                                <img src="../trainingimages/sbc-acoustic_guitar.jpg" alt="Acoustic Guitar">
+                                <p>Acoustic Guitar</p>
+                            </div>
+                            <div class="product-card">
+                                <img src="../trainingimages/sbc-electric_guitar.jpg" alt="Electric Guitar">
+                                <p>Electric Guitar</p>
+                            </div>
+                            <div class="product-card">
+                                <img src="../trainingimages/sbc-electroacoustic.jpg.webp" alt="Electro Acoustic Guitar">
+                                <p>Electro Acoustic Guitar</p>
+                            </div>
+                            <div class="product-card">
+                                <img src="../trainingimages/sbc-bass.jpeg" alt="Bass Guitar">
+                                <p>Bass Guitar</p>
+                            </div>
+                            <div class="product-card">
+                                <img src="../trainingimages/sbc-classical_guitar.jpeg" alt="Classical Guitar">
+                                <p>Classical Guitar</p>
+                            </div>
+                            <!-- Add more guitar products -->
+                        </div>
+                    </div>
+
+                    <div id="ukulele" class="category-item">
+                        <h3>Ukuleles</h3>
+                        <div class="product-list">
+                            <div class="product-card">
+                                <img src="../trainingimages/sbc-soprano.jpg.webp" alt="Soprano Ukulele">
+                                <p>Soprano Ukulele</p>
+                            </div>
+                            <div class="product-card">
+                                <img src="../trainingimages/sbc-concert.jpg" alt="Concert Ukulele">
+                                <p>Concert Ukulele</p>
+                            </div>
+                            <div class="product-card">
+                                <img src="../trainingimages/sbc-tenor.jpeg" alt="Tenor Ukulele">
+                                <p>Tenor Ukulele</p>
+                            </div>
+                            <div class="product-card">
+                                <img src="../trainingimages/sbc-baritone.jpg" alt="Baritone Ukulele">
+                                <p>Baritone Ukulele</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="keyboard" class="category-item">
+                        <h3>Keyboards & Pianos</h3>
+                        <div class="product-list">
+                            <div class="product-card">
+                                <img src="../trainingimages/sbc-digital_piano.jpg" alt="Digital Piano">
+                                <p>Digital Piano</p>
+                            </div>
+                            <div class="product-card">
+                                <img src="../trainingimages/sbc-midi.jpeg.webp" alt="Midi Keyboard">
+                                <p>Midi Keyboard</p>
+                            </div>
+                            <div class="product-card">
+                                <img src="../trainingimages/sbc-portable.jpg.webp" alt="Portable Keyboard">
+                                <p>Portable Keyboard</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="drums" class="category-item">
+                        <h3>Drums & Percussions</h3>
+                        <div class="product-list">
+                            <div class="product-card">
+                                <img src="../trainingimages/sbc-electronicdrum.jpg" alt="Electronic Drum Set">
+                                <p>Electronic Drum Set</p>
+                            </div>
+                            <div class="product-card">
+                                <img src="../trainingimages/sbc-acousticdrum.jpg" alt="Acoustic Drumkit">
+                                <p>Acoustic Drumkit</p>
+                            </div>
+                            <div class="product-card">
+                                <img src="../trainingimages/sbc-percussion.jpeg" alt="Percussions">
+                                <p>Percussions</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="wind" class="category-item">
+                        <h3>Wind Instruments</h3>
+                        <div class="product-list">
+                            <div class="product-card">
+                                <img src="../trainingimages/sbc-flute.jpg" alt="Flute">
+                                <p>Flute</p>
+                            </div>
+                            <div class="product-card">
+                                <img src="../trainingimages/sbc-trumpets.jpg" alt="Trumpets">
+                                <p>Trumpets</p>
+                            </div>
+                            <div class="product-card">
+                                <img src="../trainingimages/saxophone.jpg" alt="Saxophone">
+                                <p>Saxophone</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 My Music Store. All rights reserved.</p>
+            <p>&copy; 2024 My Music Store. All Rights Reserved.</p>
         </div>
     </footer>
 </body>

@@ -1,0 +1,38 @@
+@prefix ex: <http://example.com/music-store#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+# Classes
+ex:Instrument rdf:type rdfs:Class .
+ex:Category rdf:type rdfs:Class .
+ex:Brand rdf:type rdfs:Class .
+ex:Model rdf:type rdfs:Class .
+
+# Categories
+ex:Guitar rdf:type ex:Category ; rdfs:label "Guitar" .
+ex:Ukulele rdf:type ex:Category ; rdfs:label "Ukulele" .
+ex:KeyboardAndPiano rdf:type ex:Category ; rdfs:label "Keyboards and Pianos" .
+ex:DrumsAndPercussion rdf:type ex:Category ; rdfs:label "Drums and Percussions" .
+ex:WindInstrument rdf:type ex:Category ; rdfs:label "Wind Instruments" .
+
+# Types
+ex:ElectricGuitar rdf:type ex:Instrument ; rdfs:label "Electric Guitar" ; ex:hasCategory ex:Guitar .
+ex:AcousticGuitar rdf:type ex:Instrument ; rdfs:label "Acoustic Guitar" ; ex:hasCategory ex:Guitar .
+ex:DigitalPiano rdf:type ex:Instrument ; rdfs:label "Digital Piano" ; ex:hasCategory ex:KeyboardAndPiano .
+ex:ElectronicDrumSet rdf:type ex:Instrument ; rdfs:label "Electronic Drum Set" ; ex:hasCategory ex:DrumsAndPercussion .
+ex:Saxophone rdf:type ex:Instrument ; rdfs:label "Saxophone" ; ex:hasCategory ex:WindInstrument .
+
+# Brands
+ex:Yamaha rdf:type ex:Brand ; rdfs:label "Yamaha" .
+ex:Fender rdf:type ex:Brand ; rdfs:label "Fender" .
+ex:Ibanez rdf:type ex:Brand ; rdfs:label "Ibanez" .
+ex:Gibson rdf:type ex:Brand ; rdfs:label "Gibson" .
+ex:Roland rdf:type ex:Brand ; rdfs:label "Roland" .
+ex:Casio rdf:type ex:Brand ; rdfs:label "Casio" .
+
+# Models
+ex:YamahaFS80C rdf:type ex:Model ; rdfs:label "Yamaha FS80C" ; ex:madeBy ex:Yamaha ; ex:belongsTo ex:AcousticGuitar .
+ex:FenderStratocaster rdf:type ex:Model ; rdfs:label "Fender Stratocaster" ; ex:madeBy ex:Fender ; ex:belongsTo ex:ElectricGuitar .
+ex:IbanezAW54 rdf:type ex:Model ; rdfs:label "Ibanez AW54" ; ex:madeBy ex:Ibanez ; ex:belongsTo ex:AcousticGuitar .
+ex:GibsonLesPaul rdf:type ex:Model ; rdfs:label "Gibson Les Paul" ; ex:madeBy ex:Gibson ; ex:belongsTo ex:ElectricGuitar .
+ex:CasioCTK3500 rdf:type ex:Model ; rdfs:label "Casio CTK-3500" ; ex:madeBy ex:Casio ; ex:belongsTo ex:DigitalPiano .

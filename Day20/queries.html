@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Store - Query Results</title>
+    <link rel="stylesheet" href="msstyle.css"> <!-- Link to your CSS file -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .query-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        select {
+            width: 100%;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .result-table {
+            display: none; /* Hide the table by default */
+        }
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <h1 style="color:aquamarine;">My Music Store</h1>
+            <nav>
+                <ul>
+                    <li><a href="mswebsite.html">Home</a></li>
+                    <li><a href="shop-by-category.html">Shop by Category</a></li>
+                    <li><a href="shop-by-brand.html">Shop by Brand</a></li>
+                    <li><a href="queries.html">Common User queries</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <h1>Music Store - Query Results</h1>
+
+    <div class="query-container">
+        <label for="querySelect">Select a Query:</label>
+        <select id="querySelect" onchange="showTable(this.value)">
+            <option value="">--Select a Query--</option>
+            <option value="query1">List All Acoustic Guitars by Yamaha</option>
+            <option value="query2">List All Models by Fender</option>
+            <option value="query3">Find All Available Instruments and Their Categories</option>
+            <option value="query4">Search for Specific Models Within Electric Guitar</option>
+            <option value="query5">List All Brands that Offer Electric Guitars</option>
+            <option value="query6">List All Categories and the Number of Instruments in Each</option>
+        </select>
+
+        <div id="result1" class="result-table">
+            <h2>Results for Acoustic Guitars by Yamaha</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Model Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Yamaha FS80C</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="result2" class="result-table">
+            <h2>Results for Models by Fender</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Model Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Fender Stratocaster</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="result3" class="result-table">
+            <h2>Results for Available Instruments and Their Categories</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Instrument Name</th>
+                        <th>Category</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Electric Guitar</td>
+                        <td>Guitar</td>
+                    </tr>
+                    <tr>
+                        <td>Acoustic Guitar</td>
+                        <td>Guitar</td>
+                    </tr>
+                    <tr>
+                        <td>Digital Piano</td>
+                        <td>Keyboard and Piano</td>
+                    </tr>
+                    <tr>
+                        <td>Electronic Drum Set</td>
+                        <td>Drums and Percussion</td>
+                    </tr>
+                    <tr>
+                        <td>Saxophone</td>
+                        <td>Wind Instrument</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="result4" class="result-table">
+            <h2>Results for Electric Guitars</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Model Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Fender Stratocaster</td>
+                    </tr>
+                    <tr>
+                        <td>Gibson Les Paul</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="result5" class="result-table">
+            <h2>Results for Brands Offering Electric Guitars</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Brand Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Fender</td>
+                    </tr>
+                    <tr>
+                        <td>Gibson</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="result6" class="result-table">
+            <h2>Results for Categories and Instrument Counts</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Category Name</th>
+                        <th>Count</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Keyboard and Piano</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Guitar</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Drums and Percussion</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Wind Instrument</td>
+                        <td>1</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 My Music Store. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function showTable(query) {
+            // Hide all result tables
+            var tables = document.getElementsByClassName("result-table");
+            for (var i = 0; i < tables.length; i++) {
+                tables[i].style.display = "none";
+            }
+
+            // Show the selected table
+            if (query) {
+                document.getElementById("result" + query.charAt(query.length - 1)).style.display = "block";
+            }
+        }
+    </script>
+
+</body>
+</html>
